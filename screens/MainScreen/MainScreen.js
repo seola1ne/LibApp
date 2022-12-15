@@ -30,10 +30,10 @@ const styles = StyleSheet.create({
     },
 
     MainContent: {
-
+        flex: 5
     },
 
     NavigationBar: {
-        
+        flex: 1
     }
 })
