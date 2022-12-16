@@ -7,7 +7,6 @@ export default function MainScreen() {
     return (
         <View style={styles.container}>
             <SelectSchool style={styles.SelectSchool} />
-            <NoticeCarousel style={styles.NoticeCarousel} />
             <MainContent style={styles.MainContent} />
             <NavigationBar style={styles.NavigationBar} />
         </View>
@@ -23,10 +22,6 @@ const styles = StyleSheet.create({
         flex: 1,
         marginTop: 10,
         marginLeft: 5
-    },
-
-    NoticeCarousel: {
-        flex: 3,
     },
 
     MainContent: {

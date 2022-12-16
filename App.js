@@ -4,7 +4,7 @@ import MainScreen from './screens/MainScreen/MainScreen';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView>
       <MainScreen />
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -12,10 +12,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'flex-start',
-    justifyContent: 'flex-start'
-  },
+
 });
