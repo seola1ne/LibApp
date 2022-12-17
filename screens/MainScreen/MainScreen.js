@@ -1,13 +1,15 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import SelectSchool from "../../components/SelectSchool";
-import NoticeCarousel from "../../components/NoticeCarousel";
+
+import SelectSchool from "../../components/MainScreen/SelectSchool";
+import MainContent from '../../components/MainScreen/MainContent';
+import NavigationBar from '../../components/MainScreen/NavigationBar';
 
 export default function MainScreen() {
     return (
         <View style={styles.container}>
             <SelectSchool style={styles.SelectSchool} />
-            <MainContent style={styles.MainContent} />
+            <MainContent style={styles.MainContent} /> 
             <NavigationBar style={styles.NavigationBar} />
         </View>
     );
@@ -29,6 +31,6 @@ const styles = StyleSheet.create({
     },
 
     NavigationBar: {
-        flex: 1
+        flex: 1,
     }
 })

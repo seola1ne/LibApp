@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
-import arrowDown from '../assets/arrow_down.png';
+import arrowDown from '../../assets/Arrow_Down.png';
 
 export default function SelectSchool() {
     return (
