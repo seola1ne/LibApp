@@ -8,7 +8,6 @@ export default function App() {
   return (
     <SafeAreaView>
       <MainScreen />
-      <StatusBar style="auto" />
     </SafeAreaView>
   );
 }

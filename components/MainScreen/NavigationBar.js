@@ -13,24 +13,32 @@ import PersonFilled from '../../assets/Person_Filled_Icon.png';
 export default function NavigationBar() {
     return (
         <View style={styles.container}>
-            <TouchableOpacity>
-                <Image source={Library} />
-                <Text>내 서재</Text>
+            <TouchableOpacity style={styles.tabContent}>
+                <Image 
+                    source={Library} 
+                />
+                <Text style={styles.tabText}>내 서재</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity>
-                <Image source={BookSearch} />
-                <Text>도서 검색</Text>  
+            <TouchableOpacity style={styles.tabContent}>
+                <Image 
+                    source={BookSearch} 
+                />
+                <Text style={styles.tabText}>도서 검색</Text>  
             </TouchableOpacity>
 
-            <TouchableOpacity>
-                <Image source={BookBorrow} />
-                <Text>대출 현황</Text>  
+            <TouchableOpacity style={styles.tabContent}>
+                <Image 
+                    source={BookBorrow} 
+                />
+                <Text style={styles.tabText}>대출 현황</Text>  
             </TouchableOpacity>
 
-            <TouchableOpacity>
-                <Image source={Person} />
-                <Text>내 정보</Text>  
+            <TouchableOpacity style={styles.tabContent}>
+                <Image 
+                    source={Person} 
+                />
+                <Text style={styles.tabText}>내 정보</Text>  
             </TouchableOpacity>          
         </View>
     );
@@ -40,7 +48,16 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        height: 58,
         width: '100%'
+    },
+
+    tabContent: {
+        justifyContent: 'center',
+        alignItems: 'center'
+    }, 
+
+    tabText: {
+        fontSize: 10,
+        fontWeight: '400'
     }
 })

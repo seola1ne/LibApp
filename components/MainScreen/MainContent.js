@@ -6,8 +6,10 @@ import BookOftheMonth from './MainContent/BookOftheMonth';
 
 export default function MainContent() {
     return (
-        <ScrollView>
-            <NoticeCarousel />
+        <ScrollView >
+            <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+                <NoticeCarousel />
+            </View>
             <BookOftheMonth />
             <BookOftheMonth />
         </ScrollView>

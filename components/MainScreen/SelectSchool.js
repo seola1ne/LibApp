@@ -5,7 +5,7 @@ import arrowDown from '../../assets/Arrow_Down.png';
 export default function SelectSchool() {
     return (
         <View>
-            <TouchableOpacity  style={styles.schoolTitle}>
+            <TouchableOpacity style={styles.schoolTitle}>
                 <Text style={styles.schoolName}>
                     부산소프트웨어마이스터고
                 </Text>
@@ -21,8 +21,13 @@ export default function SelectSchool() {
 const styles = StyleSheet.create({
     schoolTitle: {
         flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center'
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        
+        marginLeft: 20,
+
+        width: '100%',
+        height: 55
     },
 
     schoolName: {
@@ -31,6 +36,6 @@ const styles = StyleSheet.create({
     },
 
     arrowBtn: {
-        marginLeft: 5
+        marginLeft: 7
     }
 })

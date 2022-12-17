@@ -13,7 +13,9 @@ export default function BookOftheMonth() {
                 <Text>
                     이 달의 추천 도서
                 </Text>
-                <Image source={ArrowRight} />
+                <Image 
+                    source={ArrowRight}
+                />
             </View>
 
             <ScrollView horizontal={true}>
