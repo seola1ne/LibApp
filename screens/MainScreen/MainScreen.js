@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
-import SelectSchool from "../../components/MainScreen/SelectSchool";
-import MainContent from '../../components/MainScreen/MainContent';
-import NavigationBar from '../../components/MainScreen/NavigationBar';
+import SelectSchool from "../../components/MainScreen/SelectSchool"; // '부산소프트웨어마이스터고', 학교 선택 부분
+import MainContent from '../../components/MainScreen/MainContent'; // 캐러셀 ~ 이 달의 추천 도서 부분
+import NavigationBar from '../../components/MainScreen/NavigationBar'; // 네비게이션 바(footer) 부분
 
 export default function MainScreen() {
     return (

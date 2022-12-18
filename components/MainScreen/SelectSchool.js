@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import arrowDown from '../../assets/Arrow_Down.png';
 
+// 학교 선택 부분
 export default function SelectSchool() {
     return (
         <View>
@@ -12,7 +13,7 @@ export default function SelectSchool() {
                 <Image 
                     source={arrowDown}
                     style={styles.arrowBtn}
-                    />
+                />
             </TouchableOpacity>
         </View>
     )

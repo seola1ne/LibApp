@@ -10,6 +10,7 @@ import BookBorrowFilled from '../../assets/Book_Borrow_Filled_Icon.png';
 import Person from '../../assets/Person_icon.png';
 import PersonFilled from '../../assets/Person_Filled_Icon.png';
 
+// 네비게이션 바(footer) 부분
 export default function NavigationBar() {
     return (
         <View style={styles.container}>
