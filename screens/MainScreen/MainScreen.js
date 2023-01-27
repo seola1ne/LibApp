@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
         // flex: 1,
         display: 'flex',
         flexDirection: 'column',
+        height: '100%'
     },
     
     SelectSchool: {

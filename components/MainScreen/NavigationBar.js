@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         justifyContent: 'space-around',
-        width: '100%'
+        width: '100%',
+        paddingVertical: 10
     },
 
     tabContent: {
@@ -57,7 +58,8 @@ const styles = StyleSheet.create({
     }, 
 
     tabText: {
-        fontSize: 10,
-        fontWeight: '400'
+        fontSize: 12,
+        fontWeight: '400',
+        marginTop: 3
     }
 })

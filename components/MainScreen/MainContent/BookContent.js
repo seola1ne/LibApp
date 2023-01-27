@@ -5,8 +5,8 @@ export default function BookContent(props) {
     return (
         <View style={styles.container}>
             <Image source={props.BookImage} />
-            <Text>{props.BookTitle}</Text>
-            <Text>{props.BookWriter}</Text>
+            <Text style={styles.BookTitle}>{props.BookTitle}</Text>
+            <Text style={styles.BookWriter}>{props.BookWriter}</Text>
         </View>
     )
 }
@@ -16,5 +16,15 @@ const styles = StyleSheet.create({
         width: 80,
         height: 150,
         marginHorizontal: 11
+    },
+
+    BookTitle: {
+        fontWeight: '600',
+        fontSize: 12
+    },
+
+    BookWriter: {
+        color: 'gray',
+        fontSize: 10
     }
 })
